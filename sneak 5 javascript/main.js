@@ -11,8 +11,9 @@ for (var i = 1; i <= n; i++) {
     var cubo = i * i * i;
     // stampo il cubo di ogni singolo numero nel range del N ove il range parte da 1 a N
     console.log(cubo);
-    // se volessi stampare il risultato in una rica sola?
+    // se volessi stampare il risultato in una riga sola? uso l array
     cuboinriga.push(cubo);
 }
 
+// stampa ogni cubo del singolo numero nel range del N su una sola riga
 console.log(cuboinriga);
