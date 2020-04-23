@@ -7,6 +7,11 @@ for (var i = 1; i <= n; i++) {
     console.log(i);
     // creo la variabile cubo
     var cubo = i * i * i;
-    // stampo il cubo di gni singolo numero nel range del N ove il range parte da 1 a N
+    // stampo il cubo di ogni singolo numero nel range del N ove il range parte da 1 a N
     console.log(cubo);
 }
+
+// sevolessi stampare il risultato in una rica sola?
+// var cuboinriga ='';
+// cuboinriga = cuboinriga + ' ' + cubo;
+// console.log(cuboinriga);
